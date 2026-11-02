@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test01</title>
+    <link rel="stylesheet" href="./test01.css" />
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <h1>헬로 월드</h1>
+    <div>float01</div>
+    <div>float02</div>
+    <div>float03</div>
+    <form action="" enctype="multipart/form-data">
+      <input type="file" name="test" id="test" />
+      <label for="colors">색상 선택:</label>
+      <input type="color" list="red-colors" id="colors" />
+      <datalist id="red-colors">
+        <!-- 목록의 항목은 <option> 태그로 정의됩니다. -->
+        <option value="#ff0000"></option>
+        <!-- 빨강 -->
+        <option value="#0000ff"></option>
+        <!-- 파랑 -->
+        <option value="#ffff00"></option>
+        <!-- 노랑 -->
+      </datalist>
+      <label for="text">선수 이름:</label>
+      <input type="text" list="player-name" id="text" />
+      <datalist id="player-name">
+        <!-- 목록의 항목은 <option> 태그로 정의됩니다. -->
+        <option value="전준우"></option>
+        <!-- 빨강 -->
+        <option value="윤동희"></option>
+        <!-- 파랑 -->
+        <option value="박세웅"></option>
+        <!-- 노랑 -->
+      </datalist>
+    </form>
+  </body>
+</html>
